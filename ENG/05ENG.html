@@ -3,17 +3,17 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Diego Morales - Projects</title>
+    <title>Diego Morales - Contact</title>
 
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/style.css" rel="stylesheet">
 
   </head>
   <body>
     <!--SIDEBAR STARTS-->
     <div id="mySidenav" class="sidenav">
       <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-      <img src="imgs/logo.png" alt="Logo" class="imageBar">
+      <img src="../imgs/logo.png" alt="Logo" class="imageBar">
       <a href="indexENG.html">Home</a>
       <a href="02ENG.html">About</a>
       <a href="03ENG.html">Projects</a>
@@ -29,7 +29,7 @@
         <!--HEADER STARTS-->
         <!-- <div class="col-md-12 header center">
           <span class="rounded">
-            Proyectos 
+            Contacto 
           </span>
         </div> -->
         <!--HEADER ENDS-->
@@ -43,7 +43,7 @@
           </div>
           <div class="col-md-10"></div>
           <div class="col-md-1 left">
-            <a style="font-size:40px;cursor:pointer;color:black" href="03ESP.html">
+            <a style="font-size:40px;cursor:pointer;color:black" href="../ESP/05ESP.html">
               ESP
             </a>
           </div>
@@ -51,17 +51,32 @@
         <!--BUTTONS END-->
 
       </div>
-
-      <iframe src="https://www.openprocessing.org/sketch/637136">
-        <p>Your browser does not support iframes.</p>
-      </iframe>
     </div>
+
+    <div class="container">
+          <form action="action_page.php">
+
+            <label for="fname" style="font-size: 30px">First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="First name here..">
+
+            <label for="lname" style="font-size: 30px">Last Name</label>
+            <input type="text" id="lname" name="lastname" placeholder="Last name here..">
+
+            <label for="subject" style="font-size: 30px">Message</label>
+            <textarea id="subject" name="subject" placeholder="Write your message here.." style="height:200px"></textarea>
+
+            <div >
+              <a style="background-color: blue; color: white; font-size: 20px; padding-top: 10px; padding-bottom: 10px; padding-left: 5px; padding-right: 5px" href="Thanks.html">Send</a> 
+            </div>
+
+          </form>
+        </div>
     <!--CONTENT ENDS-->
 
     <!--JS STARTS-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/script1.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/script1.js"></script>
     <!--JS ENDS-->
   </body>
 </html>

@@ -3,18 +3,18 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Diego Morales - Proyectos</title>
+    <title>Diego Morales - Contacto</title>
 
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/style.css" rel="stylesheet">
 
   </head>
   <body>
     <!--SIDEBAR STARTS-->
     <div id="mySidenav" class="sidenav">
       <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-      <img src="imgs/logo.png" alt="Logo" class="imageBar">
-      <a href="index.html">Inicio</a>
+      <img src="../imgs/logo.png" alt="Logo" class="imageBar">
+      <a href="../index.html">Inicio</a>
       <a href="02ESP.html">Sobre Mí</a>
       <a href="03ESP.html">Proyectos</a>
       <a href="04ESP.html">Curriculum</a>
@@ -29,7 +29,7 @@
         <!--HEADER STARTS-->
         <!-- <div class="col-md-12 header center">
           <span class="rounded">
-            Proyectos 
+            Contacto 
           </span>
         </div> -->
         <!--HEADER ENDS-->
@@ -43,39 +43,40 @@
           </div>
           <div class="col-md-10"></div>
           <div class="col-md-1 left">
-            <a style="font-size:40px;cursor:pointer;color:black" href="03ENG.html">
+            <a style="font-size:40px;cursor:pointer;color:black" href="../ENG/05ENG.html">
               ENG
             </a>
           </div>
         </div>
         <!--BUTTONS END-->
 
-        <!--TITLE START-->
-        <div class="col-md-12">
-          <div class="col-md-1"></div>
-          <div class="col-md-10">
-            <h1 style="font-size: 100px; text-decoration: underline;">Proyectos</h1>
-          </div>
-          <div class="col-md-1"></div>
-        </div>
-        <!--TITLE END-->
-
-        <!--CATEGORIES START-->
-        <div class="col-md-1"></div>
-        <div class="col-md-10">
-          
-        </div>
-        <div class="col-md-1"></div>
-        <!--CATEGORIES END-->
-
       </div>
     </div>
+
+    <div class="container">
+          <form action="action_page.php">
+
+            <label for="fname" style="font-size: 30px">Nombre</label>
+            <input type="text" id="fname" name="firstname" placeholder="Su nombre..">
+
+            <label for="lname" style="font-size: 30px">Apellido</label>
+            <input type="text" id="lname" name="lastname" placeholder="Su apellido..">
+
+            <label for="subject" style="font-size: 30px">Mensaje</label>
+            <textarea id="subject" name="subject" placeholder="Escriba aquí.." style="height:200px"></textarea>
+
+            <div >
+              <a style="background-color: blue; color: white; font-size: 20px; padding-top: 10px; padding-bottom: 10px; padding-left: 5px; padding-right: 5px" href="gracias.html">Enviar</a> 
+            </div>
+
+          </form>
+        </div>
     <!--CONTENT ENDS-->
 
     <!--JS STARTS-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/script1.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/script1.js"></script>
     <!--JS ENDS-->
   </body>
 </html>
